@@ -2,6 +2,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 // Testimonials-er data
 const testimonialsData = [
@@ -109,11 +110,12 @@ const Testimonials = () => {
             >
               <div className="p-10 md:p-12 flex items-center justify-center h-full bg-slate-900/50 border border-cyan-400/20 rounded-2xl backdrop-blur-md">
                 <div className="text-center">
-                  {/* Standard img tag byabohar kora hoyeche */}
-                  <img
+                  {/* Using Next.js Image component for optimization */}
+                  <Image
                     src={testimonial.clientImage}
                     alt={testimonial.name}
-                    style={{ width: "80px", height: "80px" }}
+                    width={80}
+                    height={80}
                     className="rounded-full mx-auto mb-4 border-4 border-cyan-400/30"
                   />
                   <h3 className="text-xl font-bold text-white">

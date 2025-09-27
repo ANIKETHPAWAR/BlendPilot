@@ -108,7 +108,7 @@ export default function TermsOfServicePage() {
               <p>
                 Payment terms are specified in individual project agreements. 
                 Late payments may result in project delays or suspension of services.
-                All prices are subject to change with 30 days' notice.
+                All prices are subject to change with 30 days&apos; notice.
               </p>
             </LegalContent>
 
