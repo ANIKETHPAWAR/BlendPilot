@@ -4,6 +4,9 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const AnimatedSection = ({ children, className = "" }) => {
     const ref = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
@@ -76,7 +79,7 @@ export default function CancellationAndRefundPage() {
                   <strong>Project Cancellation:</strong> Clients may cancel a project at any time with written notice. However, cancellation fees may apply based on the project stage and work completed.
                 </li>
                 <li>
-                  <strong>Service Cancellation:</strong> Ongoing services (maintenance, hosting, etc.) can be cancelled with 30 days' written notice.
+                  <strong>Service Cancellation:</strong> Ongoing services (maintenance, hosting, etc.) can be cancelled with 30 days&apos; written notice.
                 </li>
                 <li>
                   <strong>Meeting Cancellations:</strong> Booked meetings can be cancelled up to 24 hours in advance without penalty.
@@ -96,7 +99,7 @@ export default function CancellationAndRefundPage() {
                   <strong>Partial Refund:</strong> If work has begun, refunds are calculated based on completed work and materials used, minus a 15% administrative fee.
                 </li>
                 <li>
-                  <strong>No Refund:</strong> After project completion and delivery, no refunds are provided unless there's a breach of contract on our part.
+                  <strong>No Refund:</strong> After project completion and delivery, no refunds are provided unless there&apos;s a breach of contract on our part.
                 </li>
                 <li>
                   <strong>Refund Processing:</strong> Approved refunds will be processed within 5-10 business days via the original payment method.
@@ -140,7 +143,7 @@ export default function CancellationAndRefundPage() {
 
             <LegalContent title="Dispute Resolution">
               <p>
-                If you're not satisfied with our services or have concerns about billing, please contact us immediately. We're committed to resolving disputes fairly and promptly through:
+                If you&apos;re not satisfied with our services or have concerns about billing, please contact us immediately. We&apos;re committed to resolving disputes fairly and promptly through:
               </p>
               <ul className="list-disc list-inside space-y-2 pl-4">
                 <li>Direct communication and negotiation</li>
@@ -155,7 +158,7 @@ export default function CancellationAndRefundPage() {
                 <Link href="/contact" className="text-[#007BFF] hover:underline">
                   contact us
                 </Link>
-                {" "}with your project details and we'll respond within 24 hours.
+                {" "}with your project details and we&apos;ll respond within 24 hours.
               </p>
             </LegalContent>
           </AnimatedSection>

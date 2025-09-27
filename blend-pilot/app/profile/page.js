@@ -8,6 +8,9 @@ import ProfileSettings from './components/ProfileSettings';
 import MyBlogs from './components/MyBlogs';
 import ChangePassword from './components/ChangePassword';
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const ProfilePage = () => {
       const { user, loading } = useAuth();
       const router = useRouter();

@@ -5,6 +5,9 @@ import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { gsap } from "gsap";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const portfolioData = [
 
     {
@@ -40,17 +43,23 @@ const PortfolioPage = () => {
     const containerRef = useRef(null);
 
     useEffect(() => {
-        const ctx = gsap.context(() => {
-            gsap.to(".portfolio-card", {
-                opacity: 1,
-                y: 0,
-                duration: 0.8,
-                ease: "power3.out",
-                stagger: 0.2,
-                delay: 0.5,
-            });
-        }, containerRef);
-        return () => ctx.revert();
+        if (typeof window !== 'undefined' && containerRef.current) {
+            try {
+                const ctx = gsap.context(() => {
+                    gsap.to(".portfolio-card", {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.8,
+                        ease: "power3.out",
+                        stagger: 0.2,
+                        delay: 0.5,
+                    });
+                }, containerRef);
+                return () => ctx.revert();
+            } catch (error) {
+                console.error('GSAP portfolio animation error:', error);
+            }
+        }
     }, []);
 
     return (

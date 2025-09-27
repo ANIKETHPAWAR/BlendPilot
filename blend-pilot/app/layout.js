@@ -11,6 +11,9 @@ import { AuthProvider } from "./context/AuthContext";
 import { Toaster } from "react-hot-toast";
 import { gsap } from "gsap";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora", display: "swap" });
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron", display: "swap" });
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-rajdhani", display: "swap" });
@@ -21,29 +24,37 @@ const Preloader = ({ onComplete }) => {
   const progressCounterRef = useRef(null);
 
   useEffect(() => {
-    const counter = { value: 0 };
-    const tl = gsap.timeline({ onComplete });
+    if (typeof window !== 'undefined') {
+      try {
+        const counter = { value: 0 };
+        const tl = gsap.timeline({ onComplete });
 
-    tl.to(counter, {
-      value: 100,
-      duration: 2.5,
-      ease: "power2.out",
-      onUpdate: () => {
-        const progress = Math.round(counter.value);
-        if (progressBarRef.current) {
-          progressBarRef.current.style.width = `${progress}%`;
-        }
-        if (progressCounterRef.current) {
-          progressCounterRef.current.textContent = `${progress}%`;
-        }
-      },
-    })
-      .to(preloaderRef.current, {
-        y: "-100%",
-        duration: 1,
-        ease: "power3.inOut",
-      }, "+=0.5");
-
+        tl.to(counter, {
+          value: 100,
+          duration: 2.5,
+          ease: "power2.out",
+          onUpdate: () => {
+            const progress = Math.round(counter.value);
+            if (progressBarRef.current) {
+              progressBarRef.current.style.width = `${progress}%`;
+            }
+            if (progressCounterRef.current) {
+              progressCounterRef.current.textContent = `${progress}%`;
+            }
+          },
+        })
+          .to(preloaderRef.current, {
+            y: "-100%",
+            duration: 1,
+            ease: "power3.inOut",
+          }, "+=0.5");
+      } catch (error) {
+        console.error('GSAP preloader error:', error);
+        if (onComplete) onComplete();
+      }
+    } else if (onComplete) {
+      onComplete();
+    }
   }, [onComplete]);
 
   return (

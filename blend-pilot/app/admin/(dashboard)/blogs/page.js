@@ -1,16 +1,19 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
 import { FaEye } from 'react-icons/fa';
+
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
 
 export default function BlogManagement() {
       const [blogs, setBlogs] = useState([]);
       const [filter, setFilter] = useState('');
       const [loading, setLoading] = useState(true);
 
-      const fetchBlogs = async () => {
+      const fetchBlogs = useCallback(async () => {
             setLoading(true);
             try {
                   const token = localStorage.getItem('accessToken');
@@ -26,11 +29,11 @@ export default function BlogManagement() {
             } finally {
                   setLoading(false);
             }
-      };
+      }, [filter]);
 
       useEffect(() => {
             fetchBlogs();
-      }, [filter]);
+      }, [filter, fetchBlogs]);
 
       const handleStatusChange = async (id, status) => {
             try {

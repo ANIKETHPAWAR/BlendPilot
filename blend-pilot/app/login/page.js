@@ -5,6 +5,9 @@ import Link from "next/link";
 import { useAuth } from "../context/AuthContext";
 import { useRouter } from "next/navigation";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 export default function LoginPage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);

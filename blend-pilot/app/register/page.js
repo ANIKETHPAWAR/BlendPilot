@@ -6,6 +6,9 @@ import Link from "next/link";
 import Modal from '../components/Modal';
 import { useAuth } from "../context/AuthContext";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 export default function RegisterPage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);

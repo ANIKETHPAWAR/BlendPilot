@@ -4,6 +4,9 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const AnimatedSection = ({ children, className = "" }) => {
     const ref = useRef(null);
     const [isVisible, setIsVisible] = useState(false);

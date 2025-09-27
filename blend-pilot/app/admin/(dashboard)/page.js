@@ -4,6 +4,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { FaUsers, FaNewspaper, FaClock, FaCheckCircle } from 'react-icons/fa';
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const StatsCard = ({ icon: Icon, title, value, color }) => (
       <div className="glass-card p-6 rounded-lg flex items-center gap-6">
             <div className={`w-16 h-16 rounded-lg flex items-center justify-center ${color}`}>

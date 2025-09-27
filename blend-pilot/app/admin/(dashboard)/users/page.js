@@ -4,6 +4,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useAuth } from '@/app/context/AuthContext'; // useAuth ইম্পোর্ট করুন
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 export default function UserManagement() {
       const [users, setUsers] = useState([]);
       const [loading, setLoading] = useState(true);

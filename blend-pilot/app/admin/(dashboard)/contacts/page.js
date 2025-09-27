@@ -3,6 +3,9 @@
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../../../context/AuthContext";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 export default function ContactsPage() {
   const { user, loading: authLoading } = useAuth();
   const [contacts, setContacts] = useState([]);

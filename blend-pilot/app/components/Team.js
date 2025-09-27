@@ -30,34 +30,46 @@ const TeamMemberCard = ({ member }) => {
     const [showSocials, setShowSocials] = useState(false);
 
     useEffect(() => {
-        const card = cardRef.current;
-        if (!card) return;
+        if (typeof window !== 'undefined') {
+            const card = cardRef.current;
+            if (!card) return;
 
-        // 3D Tilt Effect
-        card.addEventListener('mousemove', (e) => {
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            const rotateX = (y / rect.height - 0.5) * -15;
-            const rotateY = (x / rect.width - 0.5) * 15;
-            gsap.to(card, { duration: 0.7, rotationX: rotateX, rotationY: rotateY, transformPerspective: 1000, ease: "power2.out" });
-        });
+            try {
+                // 3D Tilt Effect
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const rotateX = (y / rect.height - 0.5) * -15;
+                    const rotateY = (x / rect.width - 0.5) * 15;
+                    gsap.to(card, { duration: 0.7, rotationX: rotateX, rotationY: rotateY, transformPerspective: 1000, ease: "power2.out" });
+                });
 
-        card.addEventListener('mouseleave', () => {
-            gsap.to(card, { duration: 1, rotationX: 0, rotationY: 0, ease: "elastic.out(1, 0.5)" });
-        });
+                card.addEventListener('mouseleave', () => {
+                    gsap.to(card, { duration: 1, rotationX: 0, rotationY: 0, ease: "elastic.out(1, 0.5)" });
+                });
+            } catch (error) {
+                console.error('GSAP Team mouse effect error:', error);
+            }
+        }
     }, []);
     
     useEffect(() => {
-        // Social icon-gulor jonno animation
-        gsap.fromTo(".social-icon", { scale: 0, opacity: 0 }, {
-            scale: 1,
-            opacity: 1,
-            duration: 0.5,
-            stagger: 0.1,
-            ease: 'back.out(1.7)',
-            delay: 0.2
-        });
+        if (typeof window !== 'undefined') {
+            try {
+                // Social icon-gulor jonno animation
+                gsap.fromTo(".social-icon", { scale: 0, opacity: 0 }, {
+                    scale: 1,
+                    opacity: 1,
+                    duration: 0.5,
+                    stagger: 0.1,
+                    ease: 'back.out(1.7)',
+                    delay: 0.2
+                });
+            } catch (error) {
+                console.error('GSAP Team animation error:', error);
+            }
+        }
     }, [showSocials]);
 
 

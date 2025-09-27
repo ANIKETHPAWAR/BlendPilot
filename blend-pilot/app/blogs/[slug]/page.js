@@ -9,11 +9,27 @@ import { FaUser, FaCalendarAlt } from "react-icons/fa";
 
 async function getPost(slug) {
   try {
+    if (!process.env.NEXT_PUBLIC_API_URL) {
+      console.log("API URL not available");
+      return null;
+    }
+    
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/blogs/${slug}`,
       { cache: "no-store" }
     );
-    if (!res.ok) return null;
+    
+    if (!res.ok) {
+      console.log(`Failed to fetch post: ${res.status}`);
+      return null;
+    }
+    
+    const contentType = res.headers.get("content-type");
+    if (!contentType || !contentType.includes("application/json")) {
+      console.log("API returned non-JSON response");
+      return null;
+    }
+    
     const result = await res.json();
     return result.data;
   } catch (error) {
@@ -120,16 +136,7 @@ export default async function BlogDetailsPage({ params }) {
   );
 }
 
-export async function generateStaticParams() {
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blogs?status=APPROVED`);
-    const result = await res.json();
-    const posts = result.data || [];
-    return posts.map((post) => ({
-      slug: post._id,
-    }));
-  } catch (error) {
-    console.error("Could not fetch posts for static generation:", error);
-    return [];
-  }
-}
+// Disable static generation for now to avoid build issues
+// export async function generateStaticParams() {
+//   return [];
+// }

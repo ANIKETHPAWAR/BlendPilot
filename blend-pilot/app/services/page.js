@@ -5,6 +5,9 @@ import Link from "next/link";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const services = [
