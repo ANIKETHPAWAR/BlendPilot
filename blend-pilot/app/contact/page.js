@@ -135,16 +135,16 @@ export default function ContactUs() {
       const result = await response.json();
       
       if (response.ok && result.success) {
-        setFormStatus("Message sent successfully! We'll get back to you soon.");
+        setFormStatus("Message sent successfully! We will get back to you soon.");
         e.target.reset();
       } else {
-        throw new Error(result.message || 'Failed to send message');
+        throw new Error(result.message || 'Failed to send message&apos;');
       }
       
       // Clear success message after 5 seconds
       setTimeout(() => setFormStatus(""), 5000);
     } catch (error) {
-      console.error('Contact form error:', error);
+      console.error('fail to send error');
       setFormStatus(error.message || "Failed to send message. Please try again.");
       setTimeout(() => setFormStatus(""), 5000);
     } finally {
@@ -159,7 +159,7 @@ export default function ContactUs() {
     },
     {
       q: "How do you handle project communication and updates?",
-      a: "We believe in transparent communication. We use tools like Slack, Jira, and schedule regular weekly calls to keep you updated on the project's progress and gather your valuable feedback.",
+      a: "We believe in transparent communication. We use tools like Slack, Jira, and schedule regular weekly calls to keep you updated on the project&apos;s progress and gather your valuable feedback.",
     },
     {
       q: "Do you provide ongoing support and maintenance after launch?",
@@ -185,10 +185,10 @@ export default function ContactUs() {
             className="text-4xl sm:text-6xl md:text-7xl font-rajdhani font-bold text-white mt-4 text-balance"
             style={{ textShadow: "0 0 20px rgba(0, 123, 255, 0.5)" }}
           >
-            {`Let's Create Something Extraordinary`}
+            {`Let&apos;s Create Something Extraordinary`}
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-6 max-w-3xl mx-auto text-balance font-sora">
-            {`Have a project, an idea, or just want to talk about the future of the web? We're here to listen.`}
+            {`Have a project, an idea, or just want to talk about the future of the web? We&apos;re here to listen.`}
           </p>
         </div>
       </section>

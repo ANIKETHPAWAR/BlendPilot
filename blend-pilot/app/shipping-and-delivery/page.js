@@ -139,7 +139,7 @@ export default function ShippingAndDeliveryPage() {
               </p>
               <ul className="list-disc list-inside space-y-2 pl-4">
                 <li>
-                  <strong>Cloud Deployment:</strong> Direct deployment to client's preferred hosting platform
+                  <strong>Cloud Deployment:</strong> Direct deployment to client&apos;s preferred hosting platform
                 </li>
                 <li>
                   <strong>Secure File Transfer:</strong> Encrypted file sharing for source code and assets
@@ -169,7 +169,7 @@ export default function ShippingAndDeliveryPage() {
 
             <LegalContent title="Post-Delivery Support">
               <p>
-                Our relationship doesn't end at delivery. We provide comprehensive post-delivery support:
+                Our relationship doesn&apos;t end at delivery. We provide comprehensive post-delivery support:
               </p>
               <ul className="list-disc list-inside space-y-2 pl-4">
                 <li>
@@ -206,7 +206,7 @@ export default function ShippingAndDeliveryPage() {
                 <Link href="/contact" className="text-[#007BFF] hover:underline">
                   contact us
                 </Link>
-                {" "}and we'll provide updates within 24 hours.
+                {" "}and we&apos;ll provide updates within 24 hours.
               </p>
             </LegalContent>
           </AnimatedSection>
