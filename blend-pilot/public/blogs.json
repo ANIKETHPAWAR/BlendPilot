@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "the-rise-of-immersive-3d-web",
+    "title": "The Rise of Immersive 3D Web: A New Era for User Engagement",
+    "category": "Web Technology",
+    "excerpt": "Discover how Three.js and WebGL are revolutionizing the internet, transforming static websites into dynamic, interactive 3D worlds that captivate users and tell compelling brand stories.",
+    "author": "Mehefuj Ali",
+    "date": "2025-07-01",
+    "image": "https://placehold.co/1200x600/040919/00cdf3?text=3D+Web"
+  },
+  {
+    "id": "unlocking-scalability-saas-architecture",
+    "title": "Unlocking Scalability: Our Approach to Modern SaaS Architecture",
+    "category": "SaaS Development",
+    "excerpt": "A deep dive into the microservices and serverless architectures we use to build highly scalable and resilient SaaS platforms.",
+    "author": "NexorZen Team",
+    "date": "2025-06-28",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=SaaS"
+  },
+  {
+    "id": "ai-in-ui-ux-crafting-smarter-interfaces",
+    "title": "AI in UI/UX: Crafting Smarter, More Personalized Interfaces",
+    "category": "AI & Design",
+    "excerpt": "Explore how we integrate AI to create user interfaces that adapt, learn, and provide a truly personalized experience for every user.",
+    "author": "NexorZen Team",
+    "date": "2025-06-25",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=AI+in+Design"
+  },
+  {
+    "id": "importance-of-robust-ci-cd-pipeline",
+    "title": "The Importance of a Robust CI/CD Pipeline in Modern Development",
+    "category": "DevOps",
+    "excerpt": "Learn why a well-structured CI/CD pipeline is non-negotiable for rapid, reliable, and high-quality software delivery.",
+    "author": "NexorZen Team",
+    "date": "2025-06-22",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=CI/CD"
+  },
+  {
+    "id": "future-of-frontend-frameworks",
+    "title": "The Future of Frontend: A Comparative Look at React, Vue, and Svelte",
+    "category": "Frontend",
+    "excerpt": "We analyze the current landscape of frontend frameworks and predict what the future holds for web development.",
+    "author": "NexorZen Team",
+    "date": "2025-06-20",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Frontend"
+  },
+  {
+    "id": "securing-web-applications-best-practices-2025",
+    "title": "Securing Your Web Application: Best Practices for 2025",
+    "category": "Cyber Security",
+    "excerpt": "A comprehensive guide to the essential security measures every web application should have in today's threat landscape.",
+    "author": "NexorZen Team",
+    "date": "2025-06-18",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Security"
+  },
+  {
+    "id": "optimizing-performance-in-next-js",
+    "title": "Optimizing Performance in Next.js: Core Web Vitals and Beyond",
+    "category": "Next.js",
+    "excerpt": "Learn advanced techniques to boost your Next.js application's performance and achieve excellent Core Web Vitals scores.",
+    "author": "NexorZen Team",
+    "date": "2025-06-15",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Next.js"
+  },
+  {
+    "id": "deep-dive-into-graphql",
+    "title": "A Deep Dive into GraphQL: The Future of API Design",
+    "category": "API Development",
+    "excerpt": "From fundamentals to advanced concepts, this guide covers everything you need to know about building and consuming GraphQL APIs.",
+    "author": "NexorZen Team",
+    "date": "2025-06-12",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=GraphQL"
+  },
+  {
+    "id": "microfrontends-the-future-of-web-architecture",
+    "title": "Microfrontends: The Future of Web Architecture?",
+    "category": "Architecture",
+    "excerpt": "Explore the pros and cons of microfrontend architecture and learn how it can help large teams build complex applications more efficiently.",
+    "author": "NexorZen Team",
+    "date": "2025-06-10",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Microfrontends"
+  },
+  {
+    "id": "serverless-computing-explained",
+    "title": "Serverless Computing Explained: A Paradigm Shift in Cloud",
+    "category": "Cloud & DevOps",
+    "excerpt": "Understand the benefits of serverless architecture, from cost savings to scalability, and how to implement it in your next project.",
+    "author": "NexorZen Team",
+    "date": "2025-06-08",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Serverless"
+  },
+  {
+    "id": "state-management-in-modern-react",
+    "title": "State Management in Modern React: Redux vs. Zustand vs. Context",
+    "category": "React",
+    "excerpt": "A detailed comparison of the most popular state management solutions for React applications in 2025.",
+    "author": "NexorZen Team",
+    "date": "2025-06-05",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=State+Mngmt"
+  },
+  {
+    "id": "building-a-design-system-from-scratch",
+    "title": "Building a Design System from Scratch: A Step-by-Step Guide",
+    "category": "UI/UX Design",
+    "excerpt": "Learn how to create a cohesive and scalable design system that will streamline your development process and ensure brand consistency.",
+    "author": "NexorZen Team",
+    "date": "2025-06-02",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Design+System"
+  },
+  {
+    "id": "the-power-of-webassembly",
+    "title": "The Power of WebAssembly: High-Performance Web Apps",
+    "category": "Web Technology",
+    "excerpt": "Unlock near-native performance in your web applications by leveraging the power of WebAssembly with languages like Rust and C++.",
+    "author": "NexorZen Team",
+    "date": "2025-05-30",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=WASM"
+  },
+  {
+    "id": "cybersecurity-trends-to-watch-in-2025",
+    "title": "Cybersecurity Trends to Watch in 2025",
+    "category": "Cyber Security",
+    "excerpt": "Stay ahead of the curve with our analysis of the most significant cybersecurity threats and trends for the coming year.",
+    "author": "NexorZen Team",
+    "date": "2025-05-28",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Cyber+Trends"
+  },
+  {
+    "id": "advanced-css-techniques-for-2025",
+    "title": "Advanced CSS Techniques for 2025",
+    "category": "Frontend",
+    "excerpt": "Explore modern CSS features like container queries, cascade layers, and new color spaces to elevate your web designs.",
+    "author": "NexorZen Team",
+    "date": "2025-05-25",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Advanced+CSS"
+  },
+  {
+    "id": "progressive-web-apps-the-definitive-guide",
+    "title": "Progressive Web Apps: The Definitive Guide",
+    "category": "Web Technology",
+    "excerpt": "Learn how to build and deploy Progressive Web Apps (PWAs) that offer a native-app-like experience on the web.",
+    "author": "NexorZen Team",
+    "date": "2025-05-22",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=PWAs"
+  },
+  {
+    "id": "headless-cms-a-new-paradigm",
+    "title": "Headless CMS: A New Paradigm for Content Management",
+    "category": "Architecture",
+    "excerpt": "Discover the flexibility and power of headless CMS solutions and how they can decouple your content from your presentation layer.",
+    "author": "NexorZen Team",
+    "date": "2025-05-20",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Headless+CMS"
+  },
+  {
+    "id": "the-art-of-api-design",
+    "title": "The Art of API Design: Best Practices for REST and GraphQL",
+    "category": "API Development",
+    "excerpt": "Learn the principles of designing clean, consistent, and easy-to-use APIs that developers will love.",
+    "author": "NexorZen Team",
+    "date": "2025-05-18",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=API+Design"
+  },
+  {
+    "id": "web-accessibility-why-it-matters",
+    "title": "Web Accessibility (a11y): Why It Matters More Than Ever",
+    "category": "UI/UX Design",
+    "excerpt": "An essential guide to understanding and implementing web accessibility standards to create inclusive digital experiences for everyone.",
+    "author": "NexorZen Team",
+    "date": "2025-05-15",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Accessibility"
+  },
+  {
+    "id": "getting-started-with-docker-and-kubernetes",
+    "title": "Getting Started with Docker and Kubernetes",
+    "category": "DevOps",
+    "excerpt": "A beginner's guide to containerization and orchestration, explaining the core concepts of Docker and Kubernetes.",
+    "author": "NexorZen Team",
+    "date": "2025-05-12",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Docker+K8s"
+  },
+  {
+    "id": "the-role-of-ai-in-e-commerce",
+    "title": "The Transformative Role of AI in E-commerce",
+    "category": "AI & Design",
+    "excerpt": "From personalized shopping experiences to automated inventory management, AI is reshaping the future of online retail.",
+    "author": "NexorZen Team",
+    "date": "2025-05-10",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=AI+E-commerce"
+  },
+  {
+    "id": "building-real-time-apps-with-websockets",
+    "title": "Building Real-Time Applications with WebSockets",
+    "category": "Web Technology",
+    "excerpt": "Learn how to use WebSockets to create dynamic, real-time features like live chat, notifications, and collaborative tools.",
+    "author": "NexorZen Team",
+    "date": "2025-05-07",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=WebSockets"
+  },
+  {
+    "id": "nextjs-vs-remix-which-is-right-for-you",
+    "title": "Next.js vs. Remix: Which React Framework is Right for You?",
+    "category": "Next.js",
+    "excerpt": "A head-to-head comparison of two of the most popular React frameworks, helping you choose the best tool for your next project.",
+    "author": "NexorZen Team",
+    "date": "2025-05-04",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Next+vs+Remix"
+  },
+  {
+    "id": "the-psychology-of-color-in-web-design",
+    "title": "The Psychology of Color in Web Design",
+    "category": "UI/UX Design",
+    "excerpt": "Understand how different colors evoke specific emotions and how to use them effectively to influence user behavior and strengthen your brand.",
+    "author": "NexorZen Team",
+    "date": "2025-05-01",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Color+Psychology"
+  },
+  {
+    "id": "introduction-to-web3-and-decentralized-apps",
+    "title": "Introduction to Web3 and Decentralized Applications (dApps)",
+    "category": "Web3",
+    "excerpt": "A beginner-friendly introduction to the concepts of blockchain, Web3, and how to start building your first decentralized application.",
+    "author": "NexorZen Team",
+    "date": "2025-04-28",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Web3"
+  },
+  {
+    "id": "mastering-asynchronous-javascript",
+    "title": "Mastering Asynchronous JavaScript: Callbacks, Promises, and Async/Await",
+    "category": "JavaScript",
+    "excerpt": "A comprehensive guide to handling asynchronous operations in JavaScript, from the classic callback pattern to modern async/await syntax.",
+    "author": "NexorZen Team",
+    "date": "2025-04-25",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Async+JS"
+  },
+  {
+    "id": "the-benefits-of-typescript-in-large-projects",
+    "title": "The Benefits of TypeScript in Large-Scale Projects",
+    "category": "TypeScript",
+    "excerpt": "Discover why adopting TypeScript can significantly improve code quality, maintainability, and developer experience in complex applications.",
+    "author": "NexorZen Team",
+    "date": "2025-04-22",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=TypeScript"
+  },
+  {
+    "id": "creating-stunning-animations-with-gsap",
+    "title": "Creating Stunning Animations with GSAP",
+    "category": "Frontend",
+    "excerpt": "Learn how to use the GreenSock Animation Platform (GSAP) to create high-performance, complex animations for the web.",
+    "author": "NexorZen Team",
+    "date": "2025-04-19",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=GSAP"
+  },
+  {
+    "id": "database-showdown-sql-vs-nosql",
+    "title": "Database Showdown: SQL vs. NoSQL - Which to Choose?",
+    "category": "Architecture",
+    "excerpt": "An in-depth comparison of relational (SQL) and non-relational (NoSQL) databases to help you decide which is best for your application's needs.",
+    "author": "NexorZen Team",
+    "date": "2025-04-16",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=SQL+vs+NoSQL"
+  },
+  {
+    "id": "implementing-dark-mode-in-react",
+    "title": "Implementing Dark Mode in Your React App: A Step-by-Step Guide",
+    "category": "React",
+    "excerpt": "Learn how to easily add a dark mode theme to your React application using Context API and CSS variables.",
+    "author": "NexorZen Team",
+    "date": "2025-04-13",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Dark+Mode"
+  },
+  {
+    "id": "seo-best-practices-for-next-js-apps",
+    "title": "SEO Best Practices for Next.js Applications",
+    "category": "Next.js",
+    "excerpt": "Boost your search engine rankings with these essential SEO tips and techniques specifically for Next.js websites.",
+    "author": "NexorZen Team",
+    "date": "2025-04-10",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Next.js+SEO"
+  },
+  {
+    "id": "the-art-of-minimalist-web-design",
+    "title": "The Art of Minimalist Web Design",
+    "category": "UI/UX Design",
+    "excerpt": "Discover the principles of minimalism and how 'less is more' can lead to more effective and aesthetically pleasing user interfaces.",
+    "author": "NexorZen Team",
+    "date": "2025-04-07",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Minimalism"
+  },
+  {
+    "id": "authentication-in-mern-stack-apps",
+    "title": "Authentication in MERN Stack Apps with JWT",
+    "category": "SaaS Development",
+    "excerpt": "A complete guide to implementing secure user authentication in your MERN stack application using JSON Web Tokens (JWT).",
+    "author": "NexorZen Team",
+    "date": "2025-04-04",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=JWT+Auth"
+  },
+  {
+    "id": "monitoring-and-logging-in-production",
+    "title": "Effective Monitoring and Logging for Production Applications",
+    "category": "DevOps",
+    "excerpt": "Learn why monitoring and logging are critical for maintaining application health and how to implement effective strategies.",
+    "author": "NexorZen Team",
+    "date": "2025-04-01",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Monitoring"
+  },
+  {
+    "id": "building-a-blog-with-nextjs-and-markdown",
+    "title": "Building a Blog with Next.js and Markdown",
+    "category": "Next.js",
+    "excerpt": "A step-by-step tutorial on creating a fast, static-generated blog using Next.js and Markdown files for content.",
+    "author": "NexorZen Team",
+    "date": "2025-03-29",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Blog+w/+MD"
+  },
+  {
+    "id": "the-role-of-a-product-manager-in-tech",
+    "title": "The Role of a Product Manager in a Tech Company",
+    "category": "Strategy",
+    "excerpt": "An inside look at the responsibilities of a product manager and how they bridge the gap between business, technology, and user experience.",
+    "author": "NexorZen Team",
+    "date": "2025-03-26",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Product+Mgmt"
+  },
+  {
+    "id": "exploring-the-jamstack-architecture",
+    "title": "Exploring the Jamstack: A Modern Web Architecture",
+    "category": "Architecture",
+    "excerpt": "What is the Jamstack? Learn about this modern architecture (JavaScript, APIs, and Markup) and its benefits for performance, security, and scalability.",
+    "author": "NexorZen Team",
+    "date": "2025-03-23",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Jamstack"
+  },
+  {
+    "id": "creating-data-visualizations-with-d3-js",
+    "title": "Creating Interactive Data Visualizations with D3.js",
+    "category": "JavaScript",
+    "excerpt": "A guide to using the D3.js library to create beautiful and interactive charts, graphs, and maps for the web.",
+    "author": "NexorZen Team",
+    "date": "2025-03-20",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=D3.js"
+  },
+  {
+    "id": "understanding-the-event-loop-in-node-js",
+    "title": "Understanding the Event Loop in Node.js",
+    "category": "Node.js",
+    "excerpt": "Demystify one of the most important and misunderstood concepts in Node.js: the event loop and its role in non-blocking I/O.",
+    "author": "NexorZen Team",
+    "date": "2025-03-17",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Event+Loop"
+  },
+  {
+    "id": "design-patterns-in-react",
+    "title": "Common Design Patterns in React",
+    "category": "React",
+    "excerpt": "Improve your React code by learning and applying common design patterns like Higher-Order Components, Render Props, and Hooks.",
+    "author": "NexorZen Team",
+    "date": "2025-03-14",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=React+Patterns"
+  },
+  {
+    "id": "introduction-to-web-workers",
+    "title": "Introduction to Web Workers: Multithreading on the Web",
+    "category": "Web Technology",
+    "excerpt": "Learn how to use Web Workers to run scripts in background threads, preventing your UI from freezing during intensive computations.",
+    "author": "NexorZen Team",
+    "date": "2025-03-11",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Web+Workers"
+  },
+  {
+    "id": "the-importance-of-code-reviews",
+    "title": "The Importance of Code Reviews in a Development Team",
+    "category": "DevOps",
+    "excerpt": "Discover how a healthy code review culture can improve code quality, foster knowledge sharing, and lead to better products.",
+    "author": "NexorZen Team",
+    "date": "2025-03-08",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Code+Reviews"
+  },
+  {
+    "id": "building-a-restful-api-with-express-and-mongodb",
+    "title": "Building a RESTful API with Express and MongoDB",
+    "category": "API Development",
+    "excerpt": "A complete tutorial on creating a robust RESTful API from scratch using the powerful combination of Express.js and MongoDB.",
+    "author": "NexorZen Team",
+    "date": "2025-03-05",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=REST+API"
+  },
+  {
+    "id": "the-future-of-virtual-and-augmented-reality",
+    "title": "The Future of Virtual and Augmented Reality on the Web",
+    "category": "Web Technology",
+    "excerpt": "Explore the current state and future potential of WebXR, and how VR and AR are set to transform the internet experience.",
+    "author": "NexorZen Team",
+    "date": "2025-03-02",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=WebXR"
+  },
+  {
+    "id": "agile-vs-waterfall-which-methodology-is-right-for-you",
+    "title": "Agile vs. Waterfall: Which Methodology is Right for You?",
+    "category": "Strategy",
+    "excerpt": "A comparison of two of the most popular project management methodologies to help you decide which approach fits your team and project best.",
+    "author": "NexorZen Team",
+    "date": "2025-02-27",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Agile+vs+Waterfall"
+  },
+  {
+    "id": "creating-a-parallax-scrolling-effect",
+    "title": "Creating a Smooth Parallax Scrolling Effect with CSS and JavaScript",
+    "category": "Frontend",
+    "excerpt": "Add depth and a modern feel to your website with this step-by-step guide to implementing a performance-optimized parallax effect.",
+    "author": "NexorZen Team",
+    "date": "2025-02-24",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Parallax"
+  },
+  {
+    "id": "the-basics-of-containerization",
+    "title": "The Basics of Containerization with Docker",
+    "category": "DevOps",
+    "excerpt": "A fundamental introduction to what containers are, why they are useful, and how to get started with Docker.",
+    "author": "NexorZen Team",
+    "date": "2025-02-21",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Docker+Basics"
+  },
+  {
+    "id": "how-to-choose-the-right-database",
+    "title": "How to Choose the Right Database for Your Project",
+    "category": "Architecture",
+    "excerpt": "A guide to the key factors you should consider when selecting a database, including data model, scalability, and consistency.",
+    "author": "NexorZen Team",
+    "date": "2025-02-18",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Choose+DB"
+  },
+  {
+    "id": "understanding-css-grid-and-flexbox",
+    "title": "A Deep Dive into CSS Grid and Flexbox",
+    "category": "Frontend",
+    "excerpt": "Master the two most powerful layout modules in modern CSS to build complex, responsive layouts with ease.",
+    "author": "NexorZen Team",
+    "date": "2025-02-15",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Grid+&+Flexbox"
+  },
+  {
+    "id": "the-importance-of-user-testing",
+    "title": "The Critical Importance of User Testing in UX Design",
+    "category": "UI/UX Design",
+    "excerpt": "Learn why user testing is an indispensable part of the design process and how it can save you time and money in the long run.",
+    "author": "NexorZen Team",
+    "date": "2025-02-12",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=User+Testing"
+  },
+  {
+    "id": "introduction-to-machine-learning-concepts",
+    "title": "Introduction to Machine Learning Concepts for Developers",
+    "category": "AI & Design",
+    "excerpt": "A developer-friendly introduction to the core concepts of machine learning, including supervised, unsupervised, and reinforcement learning.",
+    "author": "NexorZen Team",
+    "date": "2025-02-09",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=ML+Concepts"
+  },
+  {
+    "id": "optimizing-images-for-the-web",
+    "title": "Optimizing Images for the Web: A Complete Guide",
+    "category": "Web Performance",
+    "excerpt": "Learn about next-gen image formats, compression techniques, and lazy loading to dramatically improve your website's load times.",
+    "author": "NexorZen Team",
+    "date": "2025-02-06",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Image+Opt"
+  },
+  {
+    "id": "building-a-serverless-api-with-aws-lambda",
+    "title": "Building a Serverless API with AWS Lambda and API Gateway",
+    "category": "Cloud & DevOps",
+    "excerpt": "A practical guide to creating a cost-effective, highly scalable, and maintenance-free API using AWS serverless technologies.",
+    "author": "NexorZen Team",
+    "date": "2025-02-03",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=AWS+Lambda"
+  },
+  {
+    "id": "the-evolution-of-javascript",
+    "title": "The Evolution of JavaScript: From ES5 to ES2025",
+    "category": "JavaScript",
+    "excerpt": "A look back at the history of ECMAScript and the key features that have transformed JavaScript into the powerful language it is today.",
+    "author": "NexorZen Team",
+    "date": "2025-01-31",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=JS+Evolution"
+  },
+  {
+    "id": "creating-a-brand-identity-that-resonates",
+    "title": "Creating a Brand Identity That Resonates",
+    "category": "Strategy",
+    "excerpt": "A guide for startups and businesses on how to develop a strong brand identity that connects with customers and stands out in the market.",
+    "author": "NexorZen Team",
+    "date": "2025-01-28",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Branding"
+  },
+  {
+    "id": "web-performance-auditing-with-lighthouse",
+    "title": "Web Performance Auditing with Google Lighthouse",
+    "category": "Web Performance",
+    "excerpt": "Learn how to use Google Lighthouse to audit your website's performance, accessibility, and SEO, and how to interpret the results.",
+    "author": "NexorZen Team",
+    "date": "2025-01-25",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Lighthouse"
+  },
+  {
+    "id": "the-challenge-of-managing-technical-debt",
+    "title": "The Challenge of Managing Technical Debt",
+    "category": "Architecture",
+    "excerpt": "What is technical debt, and how can you manage it effectively to prevent it from crippling your project in the long term?",
+    "author": "NexorZen Team",
+    "date": "2025-01-22",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Tech+Debt"
+  },
+  {
+    "id": "introduction-to-three-js",
+    "title": "Introduction to Three.js: Creating Your First 3D Scene",
+    "category": "Web Technology",
+    "excerpt": "A beginner's tutorial on setting up a Three.js project and creating a simple 3D scene with a camera, objects, and lighting.",
+    "author": "NexorZen Team",
+    "date": "2025-01-19",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Three.js+101"
+  },
+  {
+    "id": "the-power-of-storytelling-in-ux",
+    "title": "The Power of Storytelling in UX Design",
+    "category": "UI/UX Design",
+    "excerpt": "Learn how to use narrative and storytelling techniques to create more engaging, empathetic, and effective user experiences.",
+    "author": "NexorZen Team",
+    "date": "2025-01-16",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=UX+Storytelling"
+  },
+  {
+    "id": "building-a-ci-cd-pipeline-with-github-actions",
+    "title": "Building a CI/CD Pipeline with GitHub Actions",
+    "category": "DevOps",
+    "excerpt": "A practical guide to automating your build, test, and deployment workflow using the power of GitHub Actions.",
+    "author": "NexorZen Team",
+    "date": "2025-01-13",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=GitHub+Actions"
+  },
+  {
+    "id": "understanding-react-hooks-in-depth",
+    "title": "Understanding React Hooks In-Depth: useState, useEffect, and More",
+    "category": "React",
+    "excerpt": "Go beyond the basics and gain a deeper understanding of how React Hooks work under the hood.",
+    "author": "NexorZen Team",
+    "date": "2025-01-10",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=React+Hooks"
+  },
+  {
+    "id": "the-role-of-cloud-computing-in-modern-business",
+    "title": "The Role of Cloud Computing in Modern Business",
+    "category": "Cloud & DevOps",
+    "excerpt": "An overview of how cloud services like AWS, Azure, and GCP are enabling businesses to innovate faster and operate more efficiently.",
+    "author": "NexorZen Team",
+    "date": "2025-01-07",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Cloud+Business"
+  },
+  {
+    "id": "creating-responsive-layouts-with-tailwind-css",
+    "title": "Creating Responsive Layouts with Tailwind CSS",
+    "category": "Frontend",
+    "excerpt": "A guide to using Tailwind's utility-first approach to build complex, responsive designs without writing a single line of custom CSS.",
+    "author": "NexorZen Team",
+    "date": "2025-01-04",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Tailwind+CSS"
+  },
+  {
+    "id": "the-fundamentals-of-oauth-2-0",
+    "title": "The Fundamentals of OAuth 2.0 and OpenID Connect",
+    "category": "Cyber Security",
+    "excerpt": "Understand how these essential protocols work to enable secure, third-party authentication in your applications.",
+    "author": "NexorZen Team",
+    "date": "2025-01-01",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=OAuth+2.0"
+  },
+  {
+    "id": "building-a-real-time-chat-app",
+    "title": "Building a Real-Time Chat App with Socket.IO",
+    "category": "Node.js",
+    "excerpt": "A step-by-step tutorial on creating a fully functional, real-time chat application using Node.js and Socket.IO.",
+    "author": "NexorZen Team",
+    "date": "2024-12-29",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Chat+App"
+  },
+  {
+    "id": "the-importance-of-a-good-developer-experience-dx",
+    "title": "The Importance of a Good Developer Experience (DX)",
+    "category": "Strategy",
+    "excerpt": "Learn why investing in developer experience can lead to higher productivity, better code quality, and increased team morale.",
+    "author": "NexorZen Team",
+    "date": "2024-12-26",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Developer+XP"
+  },
+  {
+    "id": "introduction-to-server-side-rendering-ssr",
+    "title": "Introduction to Server-Side Rendering (SSR) with Next.js",
+    "category": "Next.js",
+    "excerpt": "Understand the benefits of SSR for SEO and performance, and how to implement it easily with Next.js.",
+    "author": "NexorZen Team",
+    "date": "2024-12-23",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=SSR"
+  },
+  {
+    "id": "the-ethics-of-ai-in-design",
+    "title": "The Ethics of AI in Design and Development",
+    "category": "AI & Design",
+    "excerpt": "A discussion on the ethical considerations and potential biases we must address when building AI-powered products.",
+    "author": "NexorZen Team",
+    "date": "2024-12-20",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=AI+Ethics"
+  },
+  {
+    "id": "how-to-write-clean-and-maintainable-code",
+    "title": "How to Write Clean and Maintainable Code",
+    "category": "Best Practices",
+    "excerpt": "A collection of principles and best practices, inspired by 'Clean Code', to help you write code that is easy to read, understand, and maintain.",
+    "author": "NexorZen Team",
+    "date": "2024-12-17",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Clean+Code"
+  },
+  {
+    "id": "the-future-of-e-commerce-is-headless",
+    "title": "The Future of E-commerce is Headless",
+    "category": "Architecture",
+    "excerpt": "Explore why headless commerce is becoming the go-to architecture for flexible, high-performance, and omnichannel retail experiences.",
+    "author": "NexorZen Team",
+    "date": "2024-12-14",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Headless+Commerce"
+  },
+  {
+    "id": "a-guide-to-api-versioning",
+    "title": "A Practical Guide to API Versioning",
+    "category": "API Development",
+    "excerpt": "Learn different strategies for versioning your APIs (URI, header, query parameter) to ensure backward compatibility and smooth transitions.",
+    "author": "NexorZen Team",
+    "date": "2024-12-11",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=API+Versioning"
+  },
+  {
+    "id": "the-ux-of-loading-states",
+    "title": "The UX of Loading: Skeletons, Spinners, and Progress Bars",
+    "category": "UI/UX Design",
+    "excerpt": "An analysis of different loading state patterns and how to choose the right one to improve the perceived performance of your application.",
+    "author": "NexorZen Team",
+    "date": "2024-12-08",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Loading+UX"
+  },
+  {
+    "id": "understanding-event-driven-architecture",
+    "title": "Understanding Event-Driven Architecture",
+    "category": "Architecture",
+    "excerpt": "An introduction to the principles of event-driven architecture and how it enables loosely coupled, scalable, and resilient systems.",
+    "author": "NexorZen Team",
+    "date": "2024-12-05",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Event-Driven"
+  },
+  {
+    "id": "creating-a-custom-react-hook",
+    "title": "Creating Your First Custom React Hook",
+    "category": "React",
+    "excerpt": "A beginner-friendly tutorial on how to extract and reuse component logic by creating your own custom React Hooks.",
+    "author": "NexorZen Team",
+    "date": "2024-12-02",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Custom+Hook"
+  },
+  {
+    "id": "the-importance-of-mobile-first-design",
+    "title": "The Importance of Mobile-First Design in 2025",
+    "category": "UI/UX Design",
+    "excerpt": "Why designing for mobile first is no longer just a best practice, but a necessity for reaching the modern user.",
+    "author": "NexorZen Team",
+    "date": "2024-11-29",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Mobile-First"
+  },
+  {
+    "id": "introduction-to-web-workers-for-performance",
+    "title": "Boosting Performance with Web Workers",
+    "category": "Web Performance",
+    "excerpt": "A practical guide on how to offload heavy computations to a background thread using Web Workers, keeping your main UI responsive.",
+    "author": "NexorZen Team",
+    "date": "2024-11-26",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Web+Workers"
+  },
+  {
+    "id": "the-power-of-css-custom-properties",
+    "title": "The Power of CSS Custom Properties (Variables)",
+    "category": "Frontend",
+    "excerpt": "Learn how to make your CSS more dynamic, maintainable, and powerful by leveraging the full potential of CSS variables.",
+    "author": "NexorZen Team",
+    "date": "2024-11-23",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=CSS+Variables"
+  },
+  {
+    "id": "building-a-scalable-notification-system",
+    "title": "Architecting a Scalable Notification System",
+    "category": "Architecture",
+    "excerpt": "A look at the design considerations and technologies involved in building a notification system that can handle millions of users.",
+    "author": "NexorZen Team",
+    "date": "2024-11-20",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Notifications"
+  },
+  {
+    "id": "common-security-vulnerabilities-and-how-to-prevent-them",
+    "title": "Common Web Security Vulnerabilities (and How to Prevent Them)",
+    "category": "Cyber Security",
+    "excerpt": "An overview of common attacks like XSS, CSRF, and SQL Injection, and the best practices to protect your application.",
+    "author": "NexorZen Team",
+    "date": "2024-11-17",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Web+Security"
+  },
+  {
+    "id": "the-role-of-a-devops-engineer",
+    "title": "What Does a DevOps Engineer Actually Do?",
+    "category": "DevOps",
+    "excerpt": "A breakdown of the key responsibilities of a DevOps engineer and the crucial role they play in modern software development lifecycles.",
+    "author": "NexorZen Team",
+    "date": "2024-11-14",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=DevOps+Role"
+  },
+  {
+    "id": "a-guide-to-choosing-the-right-font",
+    "title": "A Guide to Choosing the Right Font for Your Website",
+    "category": "UI/UX Design",
+    "excerpt": "Typography is a critical part of design. Learn the principles of choosing fonts that are legible, aesthetically pleasing, and on-brand.",
+    "author": "NexorZen Team",
+    "date": "2024-11-11",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Typography"
+  },
+  {
+    "id": "the-future-of-passwordless-authentication",
+    "title": "The Future is Now: Passwordless Authentication",
+    "category": "Cyber Security",
+    "excerpt": "Explore the rise of passwordless authentication methods like magic links, biometrics, and WebAuthn, and why they are more secure and user-friendly.",
+    "author": "NexorZen Team",
+    "date": "2024-11-08",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Passwordless"
+  },
+  {
+    "id": "javascript-es2025-new-features",
+    "title": "What's New in JavaScript (ES2025)?",
+    "category": "JavaScript",
+    "excerpt": "A preview of the exciting new features coming to JavaScript in the next ECMAScript update.",
+    "author": "NexorZen Team",
+    "date": "2024-11-05",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=ES2025"
+  },
+  {
+    "id": "building-an-accessible-react-component-library",
+    "title": "Building an Accessible React Component Library",
+    "category": "React",
+    "excerpt": "A guide to creating reusable and accessible React components that meet WCAG standards from the ground up.",
+    "author": "NexorZen Team",
+    "date": "2024-11-02",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Accessible+React"
+  },
+  {
+    "id": "the-business-case-for-a-website-redesign",
+    "title": "The Business Case for a Website Redesign",
+    "category": "Strategy",
+    "excerpt": "How to know when it's time for a website redesign and how to justify the investment to stakeholders.",
+    "author": "NexorZen Team",
+    "date": "2024-10-30",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Redesign+ROI"
+  },
+  {
+    "id": "introduction-to-generative-ai",
+    "title": "Introduction to Generative AI for Creatives and Developers",
+    "category": "AI & Design",
+    "excerpt": "An overview of generative AI models like GPT and DALL-E and how they can be used to augment creative and development workflows.",
+    "author": "NexorZen Team",
+    "date": "2024-10-27",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Gen+AI"
+  },
+  {
+    "id": "the-importance-of-caching-strategies",
+    "title": "The Importance of Caching Strategies for Web Performance",
+    "category": "Web Performance",
+    "excerpt": "Learn about different caching techniques (browser, CDN, server-side) and how they can drastically improve your application's speed.",
+    "author": "NexorZen Team",
+    "date": "2024-10-24",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Caching"
+  },
+  {
+    "id": "how-to-conduct-effective-user-interviews",
+    "title": "How to Conduct Effective User Interviews for UX Research",
+    "category": "UI/UX Design",
+    "excerpt": "A practical guide with tips and questions for conducting user interviews that yield valuable insights for your design process.",
+    "author": "NexorZen Team",
+    "date": "2024-10-21",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=User+Interviews"
+  },
+  {
+    "id": "the-rise-of-low-code-and-no-code-platforms",
+    "title": "The Rise of Low-Code and No-Code Platforms",
+    "category": "Strategy",
+    "excerpt": "An analysis of the low-code/no-code movement and its impact on the future of software development.",
+    "author": "NexorZen Team",
+    "date": "2024-10-18",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=No-Code"
+  },
+  {
+    "id": "building-a-graphql-server-with-apollo",
+    "title": "Building a GraphQL Server with Apollo Server",
+    "category": "API Development",
+    "excerpt": "A tutorial on setting up a production-ready GraphQL server using Apollo Server on top of a Node.js and Express backend.",
+    "author": "NexorZen Team",
+    "date": "2024-10-15",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Apollo+Server"
+  },
+  {
+    "id": "the-benefits-of-static-site-generation-ssg",
+    "title": "The Benefits of Static Site Generation (SSG)",
+    "category": "Web Performance",
+    "excerpt": "Learn why SSG frameworks like Next.js and Gatsby are becoming increasingly popular for building fast, secure, and scalable websites.",
+    "author": "NexorZen Team",
+    "date": "2024-10-12",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=SSG"
+  },
+  {
+    "id": "creating-a-content-strategy-that-works",
+    "title": "Creating a Content Strategy That Drives Traffic and Engagement",
+    "category": "Marketing",
+    "excerpt": "A step-by-step guide to developing a content strategy that aligns with your business goals and resonates with your target audience.",
+    "author": "NexorZen Team",
+    "date": "2024-10-09",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Content+Strategy"
+  },
+  {
+    "id": "the-future-of-remote-work-in-tech",
+    "title": "The Future of Remote Work in the Tech Industry",
+    "category": "Culture",
+    "excerpt": "An exploration of the trends, challenges, and opportunities of remote work and how it's shaping the future of tech companies.",
+    "author": "NexorZen Team",
+    "date": "2024-10-06",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Remote+Work"
+  },
+  {
+    "id": "introduction-to-test-driven-development-tdd",
+    "title": "Introduction to Test-Driven Development (TDD)",
+    "category": "Best Practices",
+    "excerpt": "Learn the fundamentals of the TDD workflow (Red, Green, Refactor) and how it can lead to more robust and reliable code.",
+    "author": "NexorZen Team",
+    "date": "2024-10-03",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=TDD"
+  },
+  {
+    "id": "the-importance-of-a-strong-online-portfolio",
+    "title": "Why Every Developer Needs a Strong Online Portfolio",
+    "category": "Career",
+    "excerpt": "A guide for developers on how to build a portfolio that effectively showcases their skills and projects to potential employers.",
+    "author": "NexorZen Team",
+    "date": "2024-09-30",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Portfolio+Tips"
+  },
+  {
+    "id": "the-role-of-data-analytics-in-business-growth",
+    "title": "The Role of Data Analytics in Driving Business Growth",
+    "category": "Strategy",
+    "excerpt": "Learn how to leverage data analytics to gain valuable insights, make informed decisions, and drive strategic growth for your business.",
+    "author": "NexorZen Team",
+    "date": "2024-09-27",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Data+Analytics"
+  },
+  {
+    "id": "how-to-choose-a-domain-name",
+    "title": "How to Choose the Perfect Domain Name for Your Business",
+    "category": "Marketing",
+    "excerpt": "A practical guide with tips and tools for brainstorming and selecting a domain name that is memorable, brandable, and effective.",
+    "author": "NexorZen Team",
+    "date": "2024-09-24",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Domain+Names"
+  },
+  {
+    "id": "the-power-of-visual-hierarchy-in-ui-design",
+    "title": "The Power of Visual Hierarchy in UI Design",
+    "category": "UI/UX Design",
+    "excerpt": "Learn how to use size, color, contrast, and spacing to guide the user's eye and create clear, intuitive interfaces.",
+    "author": "NexorZen Team",
+    "date": "2024-09-21",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Visual+Hierarchy"
+  },
+  {
+    "id": "introduction-to-web-sockets",
+    "title": "Introduction to Web Sockets for Real-Time Communication",
+    "category": "Web Technology",
+    "excerpt": "An overview of the WebSocket protocol and how it enables bidirectional, real-time communication between clients and servers.",
+    "author": "NexorZen Team",
+    "date": "2024-09-18",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=WebSockets"
+  },
+  {
+    "id": "the-benefits-of-pair-programming",
+    "title": "The Benefits of Pair Programming for Development Teams",
+    "category": "Culture",
+    "excerpt": "An exploration of how pair programming can lead to higher code quality, better knowledge sharing, and increased team collaboration.",
+    "author": "NexorZen Team",
+    "date": "2024-09-15",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Pair+Programming"
+  },
+  {
+    "id": "how-to-write-effective-api-documentation",
+    "title": "How to Write Effective API Documentation",
+    "category": "API Development",
+    "excerpt": "A guide to creating clear, comprehensive, and easy-to-use documentation that will make your API a pleasure for other developers to work with.",
+    "author": "NexorZen Team",
+    "date": "2024-09-12",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=API+Docs"
+  },
+  {
+    "id": "the-future-of-web-design-is-motion",
+    "title": "The Future of Web Design is Motion",
+    "category": "UI/UX Design",
+    "excerpt": "Learn how thoughtful animations and micro-interactions can enhance usability, guide users, and create a more engaging and delightful experience.",
+    "author": "NexorZen Team",
+    "date": "2024-09-09",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Motion+Design"
+  },
+  {
+    "id": "a-guide-to-choosing-a-cloud-provider",
+    "title": "A Guide to Choosing a Cloud Provider: AWS vs. Azure vs. GCP",
+    "category": "Cloud & DevOps",
+    "excerpt": "A comparison of the top three cloud providers to help you decide which platform is the best fit for your application's needs and budget.",
+    "author": "NexorZen Team",
+    "date": "2024-09-06",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Cloud+Providers"
+  },
+  {
+    "id": "the-importance-of-a-strong-call-to-action-cta",
+    "title": "The Importance of a Strong Call-to-Action (CTA)",
+    "category": "Marketing",
+    "excerpt": "Learn the principles of crafting effective CTAs that drive conversions and guide users toward your business goals.",
+    "author": "NexorZen Team",
+    "date": "2024-09-03",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=CTAs"
+  },
+  {
+    "id": "the-role-of-a-scrum-master-in-agile-teams",
+    "title": "The Role of a Scrum Master in Agile Teams",
+    "category": "Strategy",
+    "excerpt": "An overview of the responsibilities of a Scrum Master and how they facilitate the Agile process to ensure team success.",
+    "author": "NexorZen Team",
+    "date": "2024-08-31",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Scrum+Master"
+  },
+  {
+    "id": "the-benefits-of-a-component-based-architecture",
+    "title": "The Benefits of a Component-Based Architecture in Frontend Development",
+    "category": "Architecture",
+    "excerpt": "Learn how breaking down your UI into reusable components can lead to more maintainable, scalable, and efficient development.",
+    "author": "NexorZen Team",
+    "date": "2024-08-28",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Components"
+  },
+  {
+    "id": "how-to-use-figma-for-collaborative-design",
+    "title": "How to Use Figma for Collaborative Design",
+    "category": "UI/UX Design",
+    "excerpt": "A guide to leveraging Figma's powerful features for real-time collaboration, prototyping, and design system management.",
+    "author": "NexorZen Team",
+    "date": "2024-08-25",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Figma"
+  },
+  {
+    "id": "the-future-of-search-is-voice",
+    "title": "The Future of Search is Voice: Optimizing for Voice Search",
+    "category": "SEO",
+    "excerpt": "Learn how the rise of voice assistants is changing SEO and how to optimize your content for voice search queries.",
+    "author": "NexorZen Team",
+    "date": "2024-08-22",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Voice+Search"
+  },
+  {
+    "id": "the-importance-of-clean-urls-for-seo",
+    "title": "The Importance of Clean URLs for SEO",
+    "category": "SEO",
+    "excerpt": "A guide to creating user-friendly and search-engine-friendly URLs that can improve your website's visibility and click-through rates.",
+    "author": "NexorZen Team",
+    "date": "2024-08-19",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Clean+URLs"
+  },
+  {
+    "id": "the-role-of-a-technical-lead",
+    "title": "The Role of a Technical Lead in a Development Team",
+    "category": "Culture",
+    "excerpt": "An exploration of the responsibilities of a technical lead, from architectural decisions to mentoring and team leadership.",
+    "author": "NexorZen Team",
+    "date": "2024-08-16",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Tech+Lead"
+  },
+  {
+    "id": "the-benefits-of-a-content-delivery-network-cdn",
+    "title": "The Benefits of a Content Delivery Network (CDN) for Your Website",
+    "category": "Web Performance",
+    "excerpt": "Learn how a CDN can dramatically improve your website's speed and reliability by caching your content in servers around the world.",
+    "author": "NexorZen Team",
+    "date": "2024-08-13",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=CDN"
+  },
+  {
+    "id": "the-importance-of-a-good-onboarding-experience",
+    "title": "The Importance of a Good Onboarding Experience for New Users",
+    "category": "UI/UX Design",
+    "excerpt": "A guide to designing effective user onboarding flows that reduce churn and help new users discover the value of your product.",
+    "author": "NexorZen Team",
+    "date": "2024-08-10",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Onboarding+UX"
+  },
+  {
+    "id": "the-future-of-data-privacy",
+    "title": "The Future of Data Privacy: Trends and Regulations to Watch",
+    "category": "Cyber Security",
+    "excerpt": "An overview of the evolving landscape of data privacy, including new regulations like GDPR and CCPA and their impact on businesses.",
+    "author": "NexorZen Team",
+    "date": "2024-08-07",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Data+Privacy"
+  },
+  {
+    "id": "the-role-of-a-quality-assurance-qa-engineer",
+    "title": "The Role of a Quality Assurance (QA) Engineer",
+    "category": "Best Practices",
+    "excerpt": "A look at the crucial role of QA engineers in ensuring the quality, reliability, and performance of software products.",
+    "author": "NexorZen Team",
+    "date": "2024-08-04",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=QA+Engineer"
+  },
+  {
+    "id": "the-benefits-of-a-customer-relationship-management-crm-system",
+    "title": "The Benefits of a Customer Relationship Management (CRM) System",
+    "category": "Strategy",
+    "excerpt": "Learn how a CRM system can help you manage customer interactions, streamline processes, and improve profitability.",
+    "author": "NexorZen Team",
+    "date": "2024-08-01",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=CRM"
+  },
+  {
+    "id": "the-importance-of-a-strong-company-culture",
+    "title": "The Importance of a Strong Company Culture",
+    "category": "Culture",
+    "excerpt": "An exploration of how a positive and supportive company culture can lead to higher employee satisfaction, productivity, and innovation.",
+    "author": "NexorZen Team",
+    "date": "2024-07-29",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Company+Culture"
+  },
+  {
+    "id": "the-future-of-the-internet-of-things-iot",
+    "title": "The Future of the Internet of Things (IoT)",
+    "category": "Web Technology",
+    "excerpt": "An overview of the IoT ecosystem and how it's set to transform industries from manufacturing to healthcare.",
+    "author": "NexorZen Team",
+    "date": "2024-07-26",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=IoT"
+  },
+  {
+    "id": "the-role-of-a-data-scientist",
+    "title": "What Does a Data Scientist Actually Do?",
+    "category": "AI & Design",
+    "excerpt": "A breakdown of the key responsibilities of a data scientist, from data collection and cleaning to building predictive models.",
+    "author": "NexorZen Team",
+    "date": "2024-07-23",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Data+Scientist"
+  },
+  {
+    "id": "the-importance-of-a-good-domain-name",
+    "title": "The Importance of a Good Domain Name",
+    "category": "Marketing",
+    "excerpt": "A guide to choosing a domain name that is memorable, brandable, and effective for your business.",
+    "author": "NexorZen Team",
+    "date": "2024-07-20",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Domain+Name"
+  },
+  {
+    "id": "the-future-of-work-is-hybrid",
+    "title": "The Future of Work is Hybrid: A Guide for Businesses",
+    "category": "Culture",
+    "excerpt": "An exploration of the benefits and challenges of a hybrid work model and how to implement it successfully in your organization.",
+    "author": "NexorZen Team",
+    "date": "2024-07-17",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Hybrid+Work"
+  },
+  {
+    "id": "the-role-of-a-ux-writer",
+    "title": "The Role of a UX Writer: Crafting a Better User Experience",
+    "category": "UI/UX Design",
+    "excerpt": "Learn how UX writing can improve usability, guide users, and create a more cohesive and enjoyable product experience.",
+    "author": "NexorZen Team",
+    "date": "2024-07-14",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=UX+Writing"
+  },
+  {
+    "id": "the-importance-of-a-good-project-manager",
+    "title": "The Importance of a Good Project Manager",
+    "category": "Strategy",
+    "excerpt": "An overview of the key responsibilities of a project manager and how they can ensure your project is delivered on time and on budget.",
+    "author": "NexorZen Team",
+    "date": "2024-07-11",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Project+Manager"
+  },
+  {
+    "id": "the-future-of-the-web-is-semantic",
+    "title": "The Future of the Web is Semantic: Understanding the Semantic Web",
+    "category": "Web Technology",
+    "excerpt": "An introduction to the concept of the Semantic Web and how it aims to make web content more understandable to computers.",
+    "author": "NexorZen Team",
+    "date": "2024-07-08",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Semantic+Web"
+  },
+  {
+    "id": "the-role-of-a-business-analyst",
+    "title": "What Does a Business Analyst Actually Do?",
+    "category": "Strategy",
+    "excerpt": "A breakdown of the key responsibilities of a business analyst, from gathering requirements to bridging the gap between business and IT.",
+    "author": "NexorZen Team",
+    "date": "2024-07-05",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Business+Analyst"
+  },
+  {
+    "id": "the-importance-of-a-good-logo",
+    "title": "The Importance of a Good Logo for Your Brand",
+    "category": "Marketing",
+    "excerpt": "A guide to the principles of effective logo design and how a strong logo can help you build a memorable and recognizable brand.",
+    "author": "NexorZen Team",
+    "date": "2024-07-02",
+    "image": "https://placehold.co/600x400/040919/00cdf3?text=Logo+Design"
+  }
+]

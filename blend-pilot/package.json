@@ -1,0 +1,50 @@
+{
+  "name": "devsafex-futuristic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.2",
+    "@capacitor/cli": "^7.4.2",
+    "@capacitor/core": "^7.4.2",
+    "@gsap/react": "^2.1.2",
+    "@react-spring/three": "^10.0.1",
+    "@react-spring/web": "^10.0.1",
+    "@react-three/drei": "^10.2.0",
+    "@react-three/fiber": "^9.1.2",
+    "@react-three/postprocessing": "^3.0.4",
+    "@uiw/react-md-editor": "^4.0.8",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.11.0",
+    "easymde": "^2.20.0",
+    "gsap": "^3.13.0",
+    "next": "15.3.3",
+    "postprocessing": "^6.37.4",
+    "react": "^19.0.0",
+    "react-calendly": "^4.4.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "react-simplemde-editor": "^5.2.0",
+    "react-typing-effect": "^2.0.5",
+    "rehype-highlight": "^7.0.2",
+    "swiper": "^11.2.8",
+    "three": "^0.177.0",
+    "typewriter-effect": "^2.22.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@netlify/plugin-nextjs": "^5.11.2",
+    "@types/node": "24.0.7",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

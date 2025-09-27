@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sora: 'Sora', sans-serif;
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-rajdhani: 'Rajdhani', sans-serif;
+  
+  --background-start-rgb: 4, 9, 25;
+  --background-end-rgb: 1, 4, 9;
+  --primary-glow: rgba(0, 123, 255, 0.3);
+  --primary-color: #007BFF;
+  --neon-cyan: #007BFF;
+  --darker-cyan: #0056b3;
+  --off-white-glow: #E0F7FA;
+  --deep-space: #010409;
+}
+
+body {
+  font-family: var(--font-sora);
+  color: var(--off-white-glow);
+  background-color: var(--deep-space);
+  overflow-x: hidden;
+}
+
+.font-sora { font-family: var(--font-sora), sans-serif; }
+.font-orbitron { font-family: var(--font-orbitron), sans-serif; }
+.font-rajdhani { font-family: var(--font-rajdhani), sans-serif; }
+
+.animated-gradient-bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background: linear-gradient(315deg, #0d0a1b, #010409, #0a041a);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#preloader-container {
+    position: fixed;
+    inset: 0;
+    background-color: #010409;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#progress-bar-container {
+    width: 80%;
+    max-width: 400px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: var(--neon-cyan);
+    box-shadow: 0 0 10px var(--neon-cyan);
+    transition: width 0.1s linear;
+}
+
+#progress-counter {
+    margin-top: 1rem;
+    font-family: var(--font-orbitron);
+    font-size: 1.25rem;
+    color: var(--off-white-glow);
+}
+
+.glow-ball {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.6;
+}
+
+.glow-ball.one {
+    width: 400px;
+    height: 400px;
+    top: 20%;
+    left: 10%;
+    background: rgba(0, 123, 255, 0.4);
+}
+
+.glow-ball.two {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    right: 15%;
+    background: rgba(80, 0, 255, 0.3);
+}
+
+.glow-ball.three {
+    width: 350px;
+    height: 350px;
+    bottom: 10%;
+    left: 40%;
+    background: rgba(0, 200, 255, 0.3);
+}
+
+.glass-card {
+  background: rgba(12, 19, 39, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 123, 255, 0.15);
+  border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 40px var(--primary-glow);
+  border-color: rgba(0, 123, 255, 0.4);
+}
+
+.floating-buttons-container {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.floating-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-button:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.floating-button.whatsapp { background-color: #25d366; }
+.floating-button.call { background-color: #3498db; }
+
+@media (max-width: 767px) {
+  .floating-buttons-container {
+    bottom: 90px;
+    right: 15px;
+    gap: 12px;
+  }
+  .floating-button {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+  }
+}
