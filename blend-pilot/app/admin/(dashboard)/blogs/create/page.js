@@ -1,13 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
+import dynamicImport from "next/dynamic";
 import { useAuth } from "@/app/context/AuthContext";
 import { useRouter } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 
 // Dynamically import SimpleMdeEditor to prevent SSR issues
-const SimpleMdeEditor = dynamic(() => import("react-simplemde-editor"), { ssr: false });
+const SimpleMdeEditor = dynamicImport(() => import("react-simplemde-editor"), { ssr: false });
+
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
 import "easymde/dist/easymde.min.css";
 
 export default function CreateBlogPage() {

@@ -1,14 +1,17 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import dynamic from "next/dynamic";
+import dynamicImport from "next/dynamic";
 import { useAuth } from "../../../context/AuthContext";
 import { useRouter, useParams } from "next/navigation";
 import axios from "axios";
 import Image from "next/image";
 import { FaChevronDown, FaSearch, FaImage, FaEdit } from "react-icons/fa";
 
-const MDEditor = dynamic(() => import("@uiw/react-md-editor"), { ssr: false });
+const MDEditor = dynamicImport(() => import("@uiw/react-md-editor"), { ssr: false });
+
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
 
 const blogCategories = ["Web Development", "Mobile App Development", "Digital Marketing", "SEO", "Technology", "UI/UX Design", "Business", "Startup Stories"];
 

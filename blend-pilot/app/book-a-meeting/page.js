@@ -3,6 +3,9 @@
 import React from "react";
 import { InlineWidget } from "react-calendly";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 export default function BookMeetingPage() {
   return (
     <main className="bg-[#040919] text-white">

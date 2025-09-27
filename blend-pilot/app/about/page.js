@@ -5,20 +5,29 @@ import { gsap } from "gsap";
 import Image from 'next/image';
 import Link from "next/link";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const AboutPage = () => {
     const containerRef = useRef(null);
 
     useEffect(() => {
-        const ctx = gsap.context(() => {
-            gsap.from(".animated-section", {
-                opacity: 0,
-                y: 50,
-                duration: 1,
-                ease: "power3.out",
-                stagger: 0.3,
-            });
-        }, containerRef);
-        return () => ctx.revert();
+        if (typeof window !== 'undefined' && containerRef.current) {
+            try {
+                const ctx = gsap.context(() => {
+                    gsap.from(".animated-section", {
+                        opacity: 0,
+                        y: 50,
+                        duration: 1,
+                        ease: "power3.out",
+                        stagger: 0.3,
+                    });
+                }, containerRef);
+                return () => ctx.revert();
+            } catch (error) {
+                console.error('GSAP animation error:', error);
+            }
+        }
     }, []);
 
     const coreValues = [

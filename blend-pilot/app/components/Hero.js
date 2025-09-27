@@ -5,19 +5,22 @@ import Link from "next/link";
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 
-gsap.registerPlugin(TextPlugin);
-
 const Hero = () => {
     const heroRef = useRef(null);
     const animatedTextRef = useRef(null);
     const cursorRef = useRef(null);
 
     useEffect(() => {
-        const animatedText = animatedTextRef.current;
-        const cursor = cursorRef.current;
-        const textToAnimate = "Building Your Future.";
+        if (typeof window !== 'undefined') {
+            try {
+                // Register plugin inside useEffect to avoid build issues
+                gsap.registerPlugin(TextPlugin);
+                
+                const animatedText = animatedTextRef.current;
+                const cursor = cursorRef.current;
+                const textToAnimate = "Building Your Future.";
 
-        const ctx = gsap.context(() => {
+                const ctx = gsap.context(() => {
 
             gsap.from(".hero-element", {
                 opacity: 0,
@@ -53,9 +56,13 @@ const Hero = () => {
                 ease: "power1.inOut",
             });
 
-        }, heroRef);
+                }, heroRef);
 
-        return () => ctx.revert();
+                return () => ctx.revert();
+            } catch (error) {
+                console.error('GSAP Hero animation error:', error);
+            }
+        }
     }, []);
 
     return (

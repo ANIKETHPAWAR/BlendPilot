@@ -8,6 +8,9 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   return (
     <>

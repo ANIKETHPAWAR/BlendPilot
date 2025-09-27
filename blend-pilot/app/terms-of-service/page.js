@@ -4,26 +4,31 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
 
+// Disable static generation to prevent build errors
+export const dynamic = 'force-dynamic';
+
 const AnimatedSection = ({ children, className = "" }) => {
     const ref = useRef(null);
-    const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(true);
 
     useEffect(() => {
-        if (ref.current) {
-            // Set initial state to visible
-            setIsVisible(true);
-            
-            // Run animation
-            gsap.fromTo(ref.current, 
-                { opacity: 0, y: 30 },
-                {
-                    opacity: 1,
-                    y: 0,
-                    duration: 0.6,
-                    ease: "power2.out",
-                    delay: 0.1
-                }
-            );
+        if (ref.current && typeof window !== 'undefined') {
+            try {
+                gsap.fromTo(ref.current, 
+                    { opacity: 0, y: 30 },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.6,
+                        ease: "power2.out",
+                        delay: 0.1,
+                        onComplete: () => setIsVisible(true)
+                    }
+                );
+            } catch (error) {
+                console.error('GSAP animation error:', error);
+                setIsVisible(true);
+            }
         }
     }, []);
 
@@ -31,7 +36,7 @@ const AnimatedSection = ({ children, className = "" }) => {
         <div 
             ref={ref} 
             className={`${className} ${isVisible ? 'opacity-100' : 'opacity-0'}`}
-            style={{ visibility: 'visible' }}
+            style={{ visibility: isVisible ? 'visible' : 'hidden' }}
         >
             {children}
         </div>
