@@ -61,10 +61,16 @@ export const AuthProvider = ({ children }) => {
                         } else {
                               router.push("/");
                         }
+                        return response.data;
+                  } else {
+                        setLoading(false);
+                        return { success: false, message: response.data.message || "Login failed" };
                   }
-                  return response.data;
             } catch (error) {
                   setLoading(false);
+                  if (error.code === 'NETWORK_ERROR' || !error.response) {
+                        return { success: false, message: "Network error. Please check your connection and try again." };
+                  }
                   return { success: false, message: error.response?.data?.message || "Login failed" };
             }
       };
@@ -79,10 +85,16 @@ export const AuthProvider = ({ children }) => {
                   });
                   if (response.data.success) {
                         await login(email, password);
+                        return response.data;
+                  } else {
+                        setLoading(false);
+                        return { success: false, message: response.data.message || "Registration failed" };
                   }
-                  return response.data;
             } catch (error) {
                   setLoading(false);
+                  if (error.code === 'NETWORK_ERROR' || !error.response) {
+                        return { success: false, message: "Network error. Please check your connection and try again." };
+                  }
                   return { success: false, message: error.response?.data?.message || "Registration failed" };
             }
       };

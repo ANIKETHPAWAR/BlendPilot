@@ -7,8 +7,8 @@ export const createUserZodSchema = z.object({
     .max(50, "Name to long"),
   email: z.string().email(),
   password: z
-    .string({ invalid_type_error: "Name will be string" })
-    .min(6, { message: "Password must be at least 8 characters long" })
+    .string({ invalid_type_error: "Password will be string" })
+    .min(6, { message: "Password must be at least 6 characters long" })
     .regex(/^(?=.*[A-Z])/, {
       message: "Must contain at least one uppercase letter",
     })
