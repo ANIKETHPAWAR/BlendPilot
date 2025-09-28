@@ -95,10 +95,90 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${sora.variable} ${orbitron.variable} ${rajdhani.variable} scroll-smooth`} suppressHydrationWarning={true}>
       <head>
+        {/* Basic Meta Tags */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#007BFF" />
+        
+        {/* SEO Meta Tags */}
+        <title>Blend Pilot - Digital Innovation & Web Development Solutions</title>
+        <meta name="description" content="Transform your digital presence with Blend Pilot. Expert web development, mobile apps, and digital solutions that drive business growth. Get started today!" />
+        <meta name="keywords" content="web development, mobile app development, digital solutions, software development, UI/UX design, business technology" />
+        <meta name="author" content="Blend Pilot" />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Blend Pilot - Digital Innovation & Web Development Solutions" />
+        <meta property="og:description" content="Transform your digital presence with Blend Pilot. Expert web development, mobile apps, and digital solutions that drive business growth." />
+        <meta property="og:image" content="https://i.ibb.co/b5xP5KTS/Untitled-design-3-Photoroom.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Blend Pilot - Digital Innovation & Web Development Solutions" />
+        <meta property="og:url" content="https://blendpilot.vercel.app" />
+        <meta property="og:site_name" content="Blend Pilot" />
+        <meta property="og:locale" content="en_US" />
+        
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blend Pilot - Digital Innovation & Web Development Solutions" />
+        <meta name="twitter:description" content="Transform your digital presence with Blend Pilot. Expert web development, mobile apps, and digital solutions that drive business growth." />
+        <meta name="twitter:image" content="https://i.ibb.co/b5xP5KTS/Untitled-design-3-Photoroom.png" />
+        <meta name="twitter:image:alt" content="Blend Pilot - Digital Innovation & Web Development Solutions" />
+        <meta name="twitter:creator" content="@blendpilot" />
+        <meta name="twitter:site" content="@blendpilot" />
+        
+        {/* Favicon and Icons */}
         <link rel="icon" href="https://i.ibb.co/4RsWLpz9/Artboard-4.png" type="image/png" />
         <link rel="shortcut icon" href="https://i.ibb.co/4RsWLpz9/Artboard-4.png" type="image/png" />
         <link rel="apple-touch-icon" href="https://i.ibb.co/4RsWLpz9/Artboard-4.png" type="image/png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://i.ibb.co/4RsWLpz9/Artboard-4.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co/4RsWLpz9/Artboard-4.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co/4RsWLpz9/Artboard-4.png" />
+        
+        {/* Additional Meta Tags */}
+        <meta name="application-name" content="Blend Pilot" />
+        <meta name="apple-mobile-web-app-title" content="Blend Pilot" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="format-detection" content="telephone=no" />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://blendpilot.vercel.app" />
+        
+        {/* External Stylesheets */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        
+        {/* Web App Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Blend Pilot",
+              "description": "Digital Innovation & Web Development Solutions",
+              "url": "https://blendpilot.vercel.app",
+              "logo": "https://i.ibb.co/4RsWLpz9/Artboard-4.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "availableLanguage": "English"
+              },
+              "sameAs": [
+                "https://twitter.com/blendpilot",
+                "https://linkedin.com/company/blendpilot"
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "US"
+              }
+            })
+          }}
+        />
       </head>
       <body suppressHydrationWarning={true} className="bg-deep-space">
         {loading && <Preloader onComplete={() => setLoading(false)} />}

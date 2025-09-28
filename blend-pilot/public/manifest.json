@@ -1,0 +1,35 @@
+{
+  "name": "Blend Pilot - Digital Innovation & Web Development Solutions",
+  "short_name": "Blend Pilot",
+  "description": "Transform your digital presence with Blend Pilot. Expert web development, mobile apps, and digital solutions that drive business growth.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#007BFF",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["business", "productivity", "technology"],
+  "icons": [
+    {
+      "src": "https://i.ibb.co/4RsWLpz9/Artboard-4.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.ibb.co/4RsWLpz9/Artboard-4.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://i.ibb.co/4RsWLpz9/Artboard-4.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
