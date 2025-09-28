@@ -188,10 +188,10 @@ export default function ContactUs() {
             className="text-4xl sm:text-6xl md:text-7xl font-rajdhani font-bold text-white mt-4 text-balance"
             style={{ textShadow: "0 0 20px rgba(0, 123, 255, 0.5)" }}
           >
-            {`Let&apos;s Create Something Extraordinary`}
+            {`Lets Create Something Extraordinary`}
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-6 max-w-3xl mx-auto text-balance font-sora">
-            {`Have a project, an idea, or just want to talk about the future of the web? We&apos;re here to listen.`}
+            {`Have a project, an idea, or just want to talk about the future of the web? We are here to listen.`}
           </p>
         </div>
       </section>

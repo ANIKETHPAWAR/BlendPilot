@@ -158,7 +158,7 @@ export default function CancellationAndRefundPage() {
                 <Link href="/contact" className="text-[#007BFF] hover:underline">
                   contact us
                 </Link>
-                {" "}with your project details and we&apos;ll respond within 24 hours.
+                {" "}with your project details and we will respond within 24 hours.
               </p>
             </LegalContent>
           </AnimatedSection>

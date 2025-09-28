@@ -19,6 +19,7 @@ export default function RegisterPage() {
 
   const [password, setPassword] = useState("");
   const [hasUppercase, setHasUppercase] = useState(false);
+  const [hasNumber, setHasNumber] = useState(false);
   const [hasSpecialChar, setHasSpecialChar] = useState(false);
   const [showPasswordValidation, setShowPasswordValidation] = useState(false);
 
@@ -36,6 +37,9 @@ export default function RegisterPage() {
     // Check for at least one uppercase letter
     setHasUppercase(/[A-Z]/.test(newPassword));
 
+    // Check for at least one number
+    setHasNumber(/\d/.test(newPassword));
+
     // Check for at least one special character (!@#$%^&*)
     setHasSpecialChar(/[!@#$%^&*]/.test(newPassword));
   };
@@ -51,7 +55,7 @@ export default function RegisterPage() {
     setModalOpen(false);
 
     // Frontend validation check
-    if (!hasUppercase || !hasSpecialChar) {
+    if (!hasUppercase || !hasNumber || !hasSpecialChar) {
       setError("Please meet all password requirements before submitting.");
       setLoading(false);
       return;
@@ -91,7 +95,7 @@ export default function RegisterPage() {
     );
   }
 
-  const isFormValid = hasUppercase && hasSpecialChar;
+  const isFormValid = hasUppercase && hasNumber && hasSpecialChar;
 
   return (
     <main className="min-h-screen bg-transparent text-white flex items-center justify-center p-4">
@@ -141,6 +145,10 @@ export default function RegisterPage() {
                 <div className={`flex items-center space-x-2 ${hasUppercase ? 'text-green-500' : 'text-red-500'}`}>
                   <i className={`fas ${hasUppercase ? 'fa-check-circle' : 'fa-times-circle'}`}></i>
                   <span>Must contain at least one uppercase letter</span>
+                </div>
+                <div className={`flex items-center space-x-2 ${hasNumber ? 'text-green-500' : 'text-red-500'}`}>
+                  <i className={`fas ${hasNumber ? 'fa-check-circle' : 'fa-times-circle'}`}></i>
+                  <span>Must contain at least one number</span>
                 </div>
                 <div className={`flex items-center space-x-2 ${hasSpecialChar ? 'text-green-500' : 'text-red-500'}`}>
                   <i className={`fas ${hasSpecialChar ? 'fa-check-circle' : 'fa-times-circle'}`}></i>

@@ -12,6 +12,7 @@ interface EnvConfig {
   JWT_REFRESH_SECRET: string;
   JWT_REFRESH_EXP: string;
   BASE_URL: string;
+  CORS_ORIGIN?: string;
 }
 
 const loadEnvVariables = (): EnvConfig => {
@@ -41,6 +42,7 @@ const loadEnvVariables = (): EnvConfig => {
     JWT_REFRESH_EXP: process.env.JWT_REFRESH_EXP as string,
     JWT_REFRESH_SECRET: process.env.JWT_REFRESH_SECRET as string,
     BASE_URL: process.env.BASE_URL as string,
+    CORS_ORIGIN: process.env.CORS_ORIGIN,
   };
 };
 
